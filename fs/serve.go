@@ -1,6 +1,6 @@
 // FUSE service loop, for servers that wish to use it.
 
-package fs // import "bazil.org/fuse/fs"
+package fs // import "github.com/devopsbrett/fuse/fs"
 
 import (
 	"encoding/binary"
@@ -14,14 +14,14 @@ import (
 	"sync"
 	"time"
 
-	"golang.org/x/net/context"
+	"context"
 )
 
 import (
 	"bytes"
 
-	"bazil.org/fuse"
-	"bazil.org/fuse/fuseutil"
+	"github.com/devopsbrett/fuse"
+	"github.com/devopsbrett/fuse/fuseutil"
 )
 
 const (

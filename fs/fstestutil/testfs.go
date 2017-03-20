@@ -3,9 +3,9 @@ package fstestutil
 import (
 	"os"
 
-	"bazil.org/fuse"
-	"bazil.org/fuse/fs"
-	"golang.org/x/net/context"
+	"context"
+	"github.com/devopsbrett/fuse"
+	"github.com/devopsbrett/fuse/fs"
 )
 
 // SimpleFS is a trivial FS that just implements the Root method.

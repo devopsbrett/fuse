@@ -1,12 +1,12 @@
-package record // import "bazil.org/fuse/fs/fstestutil/record"
+package record // import "github.com/devopsbrett/fuse/fs/fstestutil/record"
 
 import (
 	"sync"
 	"sync/atomic"
 
-	"bazil.org/fuse"
-	"bazil.org/fuse/fs"
-	"golang.org/x/net/context"
+	"context"
+	"github.com/devopsbrett/fuse"
+	"github.com/devopsbrett/fuse/fs"
 )
 
 // Writes gathers data from FUSE Write calls.

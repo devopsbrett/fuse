@@ -7,11 +7,11 @@ import (
 	pathpkg "path"
 	"strings"
 
-	"golang.org/x/net/context"
+	"context"
 )
 
 import (
-	"bazil.org/fuse"
+	"github.com/devopsbrett/fuse"
 )
 
 // A Tree implements a basic read-only directory tree for FUSE.

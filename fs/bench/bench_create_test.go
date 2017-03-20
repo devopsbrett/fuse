@@ -5,10 +5,10 @@ import (
 	"os"
 	"testing"
 
-	"bazil.org/fuse"
-	"bazil.org/fuse/fs"
-	"bazil.org/fuse/fs/fstestutil"
-	"golang.org/x/net/context"
+	"context"
+	"github.com/devopsbrett/fuse"
+	"github.com/devopsbrett/fuse/fs"
+	"github.com/devopsbrett/fuse/fs/fstestutil"
 )
 
 type dummyFile struct {
